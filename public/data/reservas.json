@@ -1,0 +1,34 @@
+[
+  {
+    "cliente": "Juan Pérez",
+    "ingreso": "2025-01-10",
+    "salida": "2025-01-12",
+    "habitacion": "Suite",
+    "adultos": 2,
+    "ninos": 1
+  },
+  {
+    "cliente": "Sofía Valdez",
+    "ingreso": "2025-02-05",
+    "salida": "2025-02-07",
+    "habitacion": "Doble",
+    "adultos": 1,
+    "ninos": 0
+  },
+  {
+    "cliente": "Carlos Mena",
+    "ingreso": "2025-03-15",
+    "salida": "2025-03-17",
+    "habitacion": "Individual",
+    "adultos": 1,
+    "ninos": 0
+  },
+  {
+    "cliente": "Ana Torres",
+    "ingreso": "2025-04-20",
+    "salida": "2025-04-23",
+    "habitacion": "Suite",
+    "adultos": 2,
+    "ninos": 2
+  }
+]

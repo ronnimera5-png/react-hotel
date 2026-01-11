@@ -1,0 +1,132 @@
+/* Dashboard - Inicio */
+
+/* Resumen de ocupación */
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.summary .box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.summary h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Gráficos */
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.chart-box {
+    width: 48%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.chart-box h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Canvas de gráficos */
+#reservasChart, #ocupacionChart {
+    width: 100% !important;
+    height: 450px !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Clientes */
+.clients-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.clients-summary .box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Notificaciones */
+.notifications {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+.notifications h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.notifications ul {
+    list-style-type: none;
+}
+
+.notifications li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.notifications .highlight {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Accesos rápidos */
+.quick-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.quick-links .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    transition: background-color 0.3s ease;
+}
+
+.quick-links .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Hora actual */
+.current-time {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+/* Lista de clientes registrados */
+#clientes-registrados {
+    margin-top: 30px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#clientes-registrados .edit-btn,
+#clientes-registrados .delete-btn,
+#clientes-registrados .view-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clientes-registrados .edit-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+#clientes-registrados .edit-btn:hover {
+    background-color: #e67e22;
+}
+
+#clientes-registrados .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#clientes-registrados .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+#clientes-registrados .view-btn {
+    background-color: #16a085;
+    color: white;
+}
+
+#clientes-registrados .view-btn:hover {
+    background-color: #1abc9c;
+}

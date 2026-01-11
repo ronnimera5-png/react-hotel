@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "cedula": "0102030405",
+    "nombre": "Carlos Mera",
+    "email": "carlos.mera@mail.com",
+    "telefono": "099887766",
+    "direccion": "Av. Libertad 302",
+    "fechaNacimiento": "1998-06-11"
+  },
+  {
+    "id": 2,
+    "cedula": "1122334455",
+    "nombre": "Andrea Torres",
+    "email": "andrea.torres@mail.com",
+    "telefono": "099112233",
+    "direccion": "Cdla. Kennedy Norte",
+    "fechaNacimiento": "1995-02-08"
+  }
+]

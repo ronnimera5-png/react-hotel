@@ -1,0 +1,126 @@
+/* Lista de reservas existentes */
+#lista-reservas {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+#lista-reservas .edit-btn,
+#lista-reservas .cancel-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#lista-reservas .edit-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+#lista-reservas .edit-btn:hover {
+    background-color: #e67e22;
+}
+
+#lista-reservas .cancel-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#lista-reservas .cancel-btn:hover {
+    background-color: #c0392b;
+}
+.filters {
+    display: flex;           /* organiza los elementos en fila */
+    align-items: center;     /* centra verticalmente el h3 con inputs/select */
+    gap: 10px;               /* espacio entre elementos */
+    margin-bottom: 20px;     /* espacio debajo del contenedor */
+}
+
+.filters h3 {
+    margin: 0;               /* quita el margen por defecto del h3 */
+    font-size: 18px;         /* tamaño del texto */
+    white-space: nowrap;      /* evita que el texto se divida en varias líneas */
+}
+
+.filters input,
+.filters select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filters button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+    background-color: #2980b9;
+}
+/* === Tabla de solicitudes === */
+.solicitudes-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  text-align: center;
+}
+
+.solicitudes-container h3 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+#tabla-solicitudes {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+#tabla-solicitudes th,
+#tabla-solicitudes td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#tabla-solicitudes th {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-confirmar,
+.btn-cancelar {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-confirmar {
+  background-color: #27ae60;
+}
+
+.btn-confirmar:hover {
+  background-color: #219150;
+}
+
+.btn-cancelar {
+  background-color: #e74c3c;
+}
+
+.btn-cancelar:hover {
+  background-color: #c0392b;
+}

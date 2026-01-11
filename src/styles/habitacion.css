@@ -1,0 +1,136 @@
+/* Habitaciones - Formulario */
+#habitacion-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#habitacion-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#habitacion-form label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#habitacion-form input,
+#habitacion-form select {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#habitacion-form label:first-of-type {
+    margin-top: 20px;
+}
+
+/* Filtros para buscar habitaciones */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 30%;
+}
+
+.filters button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+    background-color: #2980b9;
+}
+
+/* Lista de habitaciones */
+#lista-habitaciones {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+#lista-habitaciones table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#lista-habitaciones th,
+#lista-habitaciones td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#lista-habitaciones th {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 18px;
+}
+
+#lista-habitaciones td {
+    font-size: 16px;
+}
+
+/* Botones de acciones */
+#lista-habitaciones .edit-btn,
+#lista-habitaciones .delete-btn,
+#lista-habitaciones .change-status-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#lista-habitaciones .edit-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+#lista-habitaciones .edit-btn:hover {
+    background-color: #e67e22;
+}
+
+#lista-habitaciones .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#lista-habitaciones .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+#lista-habitaciones .change-status-btn {
+    background-color: #16a085;
+    color: white;
+}
+
+#lista-habitaciones .change-status-btn:hover {
+    background-color: #1abc9c;
+}

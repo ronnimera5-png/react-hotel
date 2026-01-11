@@ -1,0 +1,38 @@
+[
+  {
+    "numero": "101",
+    "tipo": "Individual",
+    "precio": 45,
+    "estado": "Disponible"
+  },
+  {
+    "numero": "102",
+    "tipo": "Individual",
+    "precio": 45,
+    "estado": "En Mantenimiento"
+  },
+  {
+    "numero": "201",
+    "tipo": "Doble",
+    "precio": 70,
+    "estado": "Disponible"
+  },
+  {
+    "numero": "202",
+    "tipo": "Doble",
+    "precio": 70,
+    "estado": "Ocupada"
+  },
+  {
+    "numero": "301",
+    "tipo": "Suite",
+    "precio": 120,
+    "estado": "Disponible"
+  },
+  {
+    "numero": "302",
+    "tipo": "Suite",
+    "precio": 120,
+    "estado": "Ocupada"
+  }
+]

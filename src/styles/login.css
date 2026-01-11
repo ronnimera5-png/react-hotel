@@ -1,0 +1,93 @@
+/* login.css - ARCHIVO COMPLETO ACTUALIZADO */
+
+/* Contenedor principal que tendrá la imagen de fondo SOLO en login */
+.login-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background.jpg'); /* Imagen SOLO en login */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contenedor del formulario */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Títulos */
+.login-container h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.login-container h2 {
+    font-size: 20px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Campos de formulario */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Botón de inicio de sesión */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Opción de recuperar contraseña */
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    font-size: 14px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #64d6e5, #f1f8e9);
+  color: #2c3e50;
+}
+
+/* === Ajuste visual del header y logo === */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #41399b;
+  color: white;
+  padding: 20px 10px;
+}
+
+/* Contenedor del logo + nombre */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Imagen del logo */
+.logo {
+  width: 60px;       /* ajusta el tamaño */
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Nombre del hotel */
+.logo-container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navegación centrada */
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #16a085;
+}
+
+
+
+.section {
+  display: block;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+/* ==== Estilos adicionales para la sección de contacto ==== */
+.section.contacto {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.sobre-contenido {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 40px auto;
+}
+.section.contacto a {
+  color: #2980b9;
+  font-weight: bold;
+  text-decoration: none;
+}
+.section.contacto a:hover {
+  text-decoration: underline;
+}
+#inicio {
+
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.inicio-contenido {
+  max-width: 700px;
+  margin: 0 auto 40px auto; /* centra el bloque */
+}
+
+.inicio-contenido h2 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.inicio-contenido p {
+  font-size: 18px;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+/* La galería sí puede usar flex */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galeria img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+/* ===== Sobre Nosotros (estilo tipo “por qué visitarnos”) ===== */
+.sobre {
+  position: relative;
+  padding: 50px 20px;
+}
+
+.sobre-contenido {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Título grande y centrado */
+.sobre-contenido h2 {
+  text-align: center;
+  font-size: clamp(28px, 4vw, 44px);
+  color: #0f2b3a;            /* azul oscuro elegante */
+  margin: 0 0 22px 0;
+  font-weight: 800;
+}
+
+/* Párrafos largos, cómodos de leer */
+.sobre-contenido p {
+  font-size: clamp(16px, 2.2vw, 20px);
+  line-height: 1.9;
+  color: #2c3e50;
+  margin: 18px 0;
+  text-align: justify;       /* como en el ejemplo */
+}
+
+
+/* Para mantener el texto por encima del fondo */
+.sobre-contenido { position: relative; z-index: 1; }
+/* === Fondo de video solo para la sección inicio === */
+#inicio {
+  position: relative;
+  min-height: calc(100vh - 120px); /* ocupa toda la pantalla menos el header */
+  overflow: hidden;
+}
+
+/* contenedor del video */
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* video que se ajusta al fondo */
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* mantiene proporciones y llena el fondo */
+  opacity: 0.25;     /* suaviza el video */
+}
+
+/* contenido encima del video */
+.inicio-contenido,
+.galeria {
+  position: relative;
+  z-index: 1;
+}
+
+/* 1) Evita que el degradado del body tape el video en INICIO */
+.section#inicio,
+.section#inicio * {
+  background: transparent !important;
+}
+
+/* 2) Quita banda blanca por colapso de márgenes */
+.inicio-contenido h2 { margin-top: 0; }
+
+/* 3) Asegura que el header esté por encima del video */
+.header { position: relative; z-index: 2; }

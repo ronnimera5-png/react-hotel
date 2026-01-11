@@ -1,0 +1,17 @@
+
+[
+  {
+    "cliente": "Juan Pérez",
+    "tipo": "Suite",
+    "ingreso": "2025-03-01",
+    "salida": "2025-03-05",
+    "estado": "Pendiente"
+  },
+  {
+    "cliente": "María López",
+    "tipo": "Doble",
+    "ingreso": "2025-03-10",
+    "salida": "2025-03-12",
+    "estado": "Pendiente"
+  }
+]
